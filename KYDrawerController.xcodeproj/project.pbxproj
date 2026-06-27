@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2EB536FE2FEF6CC1008709CF /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB536FD2FEF6CC1008709CF /* Package.swift */; };
 		411540801BEF3AE100531D08 /* KYDrawerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4115407F1BEF3AE100531D08 /* KYDrawerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4115408B1BEF3C7300531D08 /* KYDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411540881BEF3C7300531D08 /* KYDrawerController.swift */; };
 		4115408C1BEF3C7300531D08 /* KYEmbedDrawerControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411540891BEF3C7300531D08 /* KYEmbedDrawerControllerSegue.swift */; };
@@ -16,7 +15,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2EB536FD2FEF6CC1008709CF /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		4115407C1BEF3AE100531D08 /* KYDrawerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KYDrawerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4115407F1BEF3AE100531D08 /* KYDrawerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KYDrawerController.h; sourceTree = "<group>"; };
 		411540811BEF3AE100531D08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,7 +39,6 @@
 		411540721BEF3AE100531D08 = {
 			isa = PBXGroup;
 			children = (
-				2EB536FD2FEF6CC1008709CF /* Package.swift */,
 				4115407E1BEF3AE100531D08 /* KYDrawerController */,
 				4115408E1BEF3C9300531D08 /* Frameworks */,
 				4115407D1BEF3AE100531D08 /* Products */,
@@ -164,7 +161,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EB536FE2FEF6CC1008709CF /* Package.swift in Sources */,
 				4115408C1BEF3C7300531D08 /* KYEmbedDrawerControllerSegue.swift in Sources */,
 				4115408B1BEF3C7300531D08 /* KYDrawerController.swift in Sources */,
 				4115408D1BEF3C7300531D08 /* KYEmbedMainControllerSegue.swift in Sources */,

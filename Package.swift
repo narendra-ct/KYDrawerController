@@ -14,7 +14,9 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "KYDrawerController"
+            name: "KYDrawerController",
+            dependencies: [],
+            path: "KYDrawerController/Classes"
         )
     ]
 )
