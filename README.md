@@ -29,6 +29,23 @@ pod 'KYDrawerController'
 ### Manually
 Just add the Classes folder to your project.
 
+### Swift Package Manager
+
+In Xcode:
+
+Go to File → Add Package Dependencies
+Enter:
+https://github.com/narendra-ct/KYDrawerController
+
+Or add to Package.swift:
+
+dependencies: [
+    .package(
+        url: "https://github.com/narendra-ct/KYDrawerController",
+        branch: "master"
+    )
+]
+
 
 ## Usage
 (see sample Xcode project in `/Example`)
